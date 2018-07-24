@@ -2,22 +2,25 @@
 //  ViewController.swift
 //  FunFacts
 //
-//  Created by Screencast on 11/1/16.
-//  Copyright © 2016 Treehouse Island. All rights reserved.
+//  Copyright © 2018 ITECH PLUS. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var funFactQuestionLabel: UILabel!
     @IBOutlet weak var funFactLabel: UILabel!
-    @IBOutlet weak var funFactTextView: UITextView!
     @IBOutlet weak var showFactButton: UIButton!
+    let factBook = FactBook()
+    let colorWheel = ColorWheel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        funFactLabel.text = "An interesting fact!"
+        funFactLabel.text = factBook.randomFact()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +29,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showFact() {
-        funFactLabel.text = "Another interesting fact"
+        funFactLabel.text = factBook.randomFact()
+        funFactQuestionLabel.text = colorWheel.randomColor()
     }
 }
 

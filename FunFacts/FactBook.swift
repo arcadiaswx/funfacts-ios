@@ -3,10 +3,9 @@
 //  FunFacts
 //
 //  Created by Craig on 7/23/18.
-//  Copyright © 2018 Treehouse Island. All rights reserved.
-//
 
-import Foundation
+//
+import GameKit
 
 class FactBook {
     
@@ -26,15 +25,16 @@ class FactBook {
     
     
     // Method (abilities: things the object can do)
-    func getFact()  -> String {
-    var fact =  String();
+    func randomFact()  -> String {
+    //var fact =  String();
     
     // Randomly select a fact
-    let randomGenerator: Int = Int(arc4random()); // Construct a new Random number generator
+    //let randomGenerator: Int = Int(arc4random()); // Construct a new Random number generator
+    let randomGenerator = GKRandomSource.sharedRandom().nextInt(upperBound: mFacts.count)
+    return mFacts[randomGenerator]
     //var randomNumber: Int = randomGenerator.nextInt(mFacts.length);
     
-    fact = mFacts[randomGenerator];
-    
-    return fact
+    //fact = mFacts[randomGenerator];
+
     }
 }
