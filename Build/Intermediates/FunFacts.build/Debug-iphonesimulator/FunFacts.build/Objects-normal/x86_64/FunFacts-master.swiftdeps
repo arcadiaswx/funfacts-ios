@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "5227931582d30d33b7499a72bca72235"
+build_time: [1532363801, 207492000]
+inputs:
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/FactBook.swift": [1532358287, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/ViewController.swift": [1532357594, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/AppDelegate.swift": [1478013386, 0]
