@@ -3,7 +3,7 @@
 //  FunFacts
 //
 //  Created by Screencast on 11/1/16.
-//  Copyright © 2016 Treehouse Island. All rights reserved.
+//  Copyright © 2016 Arcadia Softworks. All rights reserved.
 //
 
 import UIKit

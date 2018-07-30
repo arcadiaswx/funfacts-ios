@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		445ED178210625E5005B23FD /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED177210625E5005B23FD /* FactBook.swift */; };
 		445ED17A210674DB005B23FD /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED179210674DB005B23FD /* ColorWheel.swift */; };
+		445ED17C21078607005B23FD /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ED17B21078607005B23FD /* SampleViewController.swift */; };
 		BE92A32D1DC8E8B300087603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92A32C1DC8E8B300087603 /* AppDelegate.swift */; };
 		BE92A32F1DC8E8B300087603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92A32E1DC8E8B300087603 /* ViewController.swift */; };
 		BE92A3321DC8E8B300087603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE92A3301DC8E8B300087603 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		445ED177210625E5005B23FD /* FactBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		445ED179210674DB005B23FD /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		445ED17B21078607005B23FD /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		BE92A3291DC8E8B300087603 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE92A32C1DC8E8B300087603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE92A32E1DC8E8B300087603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BE92A3381DC8E8B300087603 /* Info.plist */,
 				445ED177210625E5005B23FD /* FactBook.swift */,
 				445ED179210674DB005B23FD /* ColorWheel.swift */,
+				445ED17B21078607005B23FD /* SampleViewController.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445ED17C21078607005B23FD /* SampleViewController.swift in Sources */,
 				445ED178210625E5005B23FD /* FactBook.swift in Sources */,
 				BE92A32F1DC8E8B300087603 /* ViewController.swift in Sources */,
 				BE92A32D1DC8E8B300087603 /* AppDelegate.swift in Sources */,
@@ -291,7 +295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -305,7 +309,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

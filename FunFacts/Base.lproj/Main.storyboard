@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jnf-oH-7dN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="CrI-Ab-rNo">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FunFacts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jnf-oH-7dN" customClass="ViewController" customModule="FunFacts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="jJl-4w-Aqd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ouo-jf-EdU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="4bJ-ba-vrV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZw-pC-KL5">
-                                <rect key="frame" x="16" y="49" width="343" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.59999999999999998" green="0.81960784313725488" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0y-vF-8tR">
+                                <rect key="frame" x="36" y="160" width="303" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-oY-zD5">
-                                <rect key="frame" x="81" y="489" width="222" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Show Another Fun Fact">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJy-gh-NiA">
+                                <rect key="frame" x="36" y="547" width="303" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XgE-w0-nMa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="18"/>
+                                <color key="tintColor" red="0.36862745098039218" green="0.73333333333333328" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show Another Fun Fact"/>
                                 <connections>
-                                    <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="3vC-Wg-kGL"/>
+                                    <action selector="showFact" destination="jnf-oH-7dN" eventType="touchUpInside" id="be8-qS-lyZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are born with 300 bones; by the time you are an adult you will have 206." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9H-4S-ey5">
-                                <rect key="frame" x="16" y="121" width="343" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are born with 300 bones; by the time you are an adult you will have 206." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aI-B0-xdK">
+                                <rect key="frame" x="20" y="283.5" width="335" height="100.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.33333333333333331" green="0.70196078431372544" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.36862745098039218" green="0.73333333333333328" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zJy-gh-NiA" firstAttribute="leading" secondItem="4bJ-ba-vrV" secondAttribute="leadingMargin" constant="20" id="2ME-8P-C6V"/>
+                            <constraint firstAttribute="trailing" secondItem="6aI-B0-xdK" secondAttribute="trailing" constant="20" id="4v8-Nj-3xO"/>
+                            <constraint firstItem="6aI-B0-xdK" firstAttribute="centerY" secondItem="4bJ-ba-vrV" secondAttribute="centerY" id="8Zw-YT-0CA"/>
+                            <constraint firstItem="j0y-vF-8tR" firstAttribute="leading" secondItem="4bJ-ba-vrV" secondAttribute="leadingMargin" constant="20" id="B0p-PC-qJJ"/>
+                            <constraint firstItem="j0y-vF-8tR" firstAttribute="top" secondItem="jJl-4w-Aqd" secondAttribute="bottom" constant="140" id="KsW-os-rAz"/>
+                            <constraint firstItem="Ouo-jf-EdU" firstAttribute="top" secondItem="zJy-gh-NiA" secondAttribute="bottom" constant="80" id="Sgr-PM-axN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zJy-gh-NiA" secondAttribute="trailing" constant="20" id="nc3-ap-EJC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j0y-vF-8tR" secondAttribute="trailing" constant="20" id="pEh-ZH-2ea"/>
+                            <constraint firstItem="6aI-B0-xdK" firstAttribute="leading" secondItem="4bJ-ba-vrV" secondAttribute="leading" constant="20" id="zvp-f6-TlK"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="funFactLabel" destination="x9H-4S-ey5" id="7Rf-mf-8uu"/>
-                        <outlet property="funFactQuestionLabel" destination="rZw-pC-KL5" id="HNR-sy-A3F"/>
-                        <outlet property="showFactButton" destination="NIM-oY-zD5" id="fYP-rA-jey"/>
+                        <outlet property="funFactButton" destination="zJy-gh-NiA" id="lWy-Yp-NrR"/>
+                        <outlet property="funFactLabel" destination="6aI-B0-xdK" id="BaS-Gf-CQn"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pgm-tn-jMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309.60000000000002" y="136.28185907046478"/>
+            <point key="canvasLocation" x="310" y="876"/>
         </scene>
     </scenes>
 </document>

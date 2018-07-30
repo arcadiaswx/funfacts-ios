@@ -10,7 +10,7 @@ import GameKit
 class FactBook {
     
     // Member variables (properties about the object)
-    var mFacts = [
+    var facts = [
     "Ants stretch when they wake up in the morning.",
     "Ostriches can run faster than horses.",
     "Olympic gold medals are actually made mostly of silver.",
@@ -30,8 +30,8 @@ class FactBook {
     
     // Randomly select a fact
     //let randomGenerator: Int = Int(arc4random()); // Construct a new Random number generator
-    let randomGenerator = GKRandomSource.sharedRandom().nextInt(upperBound: mFacts.count)
-    return mFacts[randomGenerator]
+    let randomGenerator = GKRandomSource.sharedRandom().nextInt(upperBound: facts.count)
+    return facts[randomGenerator]
     //var randomNumber: Int = randomGenerator.nextInt(mFacts.length);
     
     //fact = mFacts[randomGenerator];

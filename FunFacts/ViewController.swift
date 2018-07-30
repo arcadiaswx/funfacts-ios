@@ -2,17 +2,16 @@
 //  ViewController.swift
 //  FunFacts
 //
-//  Copyright © 2018 ITECH PLUS. All rights reserved.
+//  Copyright © 2018 Arcadia Softworks. All rights reserved.
 //
 
 import UIKit
 
-
 class ViewController: UIViewController {
     
-    @IBOutlet weak var funFactQuestionLabel: UILabel!
     @IBOutlet weak var funFactLabel: UILabel!
-    @IBOutlet weak var showFactButton: UIButton!
+    @IBOutlet weak var funFactButton: UIButton!
+    
     let factBook = FactBook()
     let colorWheel = ColorWheel()
     
@@ -20,7 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         funFactLabel.text = factBook.randomFact()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +28,9 @@ class ViewController: UIViewController {
     
     @IBAction func showFact() {
         funFactLabel.text = factBook.randomFact()
-        funFactQuestionLabel.text = colorWheel.randomColor()
+        let randomColor = colorWheel.randomColor()
+        view.backgroundColor = randomColor
+        funFactButton.tintColor = randomColor
     }
 }
 

@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.0.16.9 clang-1000.10.25.3)"
+options: "eb54794160f259e0ccafe183f0b2acb9"
+build_time: [1532559473, 776605000]
+inputs:
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/SampleViewController.swift": [1532559364, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/FactBook.swift": [1532553720, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/ViewController.swift": [1532559364, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/AppDelegate.swift": [1532559364, 0]
+  "/Users/craig/Repos/projects/ios/SimpleiPhoneApp-S2/SimpleiPhoneApp/FunFacts/FunFacts/ColorWheel.swift": [1532559364, 0]
